@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Ga+Maamli&family=Playwrite+CU:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Ga+Maamli&family=Playwrite+CU:wght@300&display=swap" rel="stylesheet">
+    <title>City Tourism - Heritage</title>
+</head>
+<style>
+    .back{
+        
+        background-image:  url(back3.png);
+        background-repeat: no-repeat;
+        background-attachment:local;
+        background-size:cover;
+        background-blend-mode: darken;
+        border-radius: 90px;
+        
+
+    }
+    .hertiage{
+        display: flex;
+        justify-content: center;
+        align-items: auto;
+        width: 50px;
+        height: 50px;
+
+    }
+    .logo{   
+       
+       display: flex;
+       justify-content: center; 
+       align-items: center; 
+       margin: auto;
+       width: 75%;
+       height: 175px; 
+       
+   }
+    
+    .column{
+        float: left;
+        width: 33%;
+        padding: 5px;
+
+    }
+    .row::after{
+        content: "";
+        display: table;
+        clear: both;
+        
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    main{
+        max-width: 1200px;
+        margin: auto;
+        padding: 20px;
+    }
+    .shots{
+        display: grid;
+        grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+        gap: 20px;
+    }
+    .shot{
+        background-color:white;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .shot:hover{
+        transform: translateY(-5px);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);;
+    }
+    .shot img{
+       
+        border-radius: 5px;
+        width: 200px;
+        height: 200px;
+        
+    }
+    .shot-info{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+    .herit{
+        display: flex;
+        justify-content: center;
+        margin: 5%;
+        font-family: "Ga Maamli", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: xxx-large;
+    }
+    .menu{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .menu li{
+            display: inline-block;
+            margin:  20px;
+            font-size: x-large;
+            color:blue;
+            margin: 35px;
+        }
+        .menu ul{
+            list-style: none;
+            text-align: center;
+            
+        }
+        .menu a{
+            text-decoration: rgb(100, 0, 57);
+            color: rgb(13, 14, 13);
+            
+
+            font-weight: 800;
+
+        }
+        .menu a:hover{
+
+            background: #0cd1db;
+            border-radius: 10px;
+            width: 8000px;
+            height: 8px;
+        }
+        .name{
+            display: flex;
+        justify-content: flex-start; 
+        align-items: center ; 
+        width: 100%;
+        height: 155px; 
+        font-size: 82px;
+        
+        margin: 13px;
+        color:rgb(133, 14, 115);
+        font-family: "Roboto Slab", serif;
+        font-optical-sizing: auto;
+        font-family: "Playwrite CU", cursive;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        padding-right: 90px;
+        }
+        .fot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 17, 17);
+    
+
+   }
+   .contact{
+            display: flex;
+            justify-content: center;
+            font-family: "Bona Nova SC", serif;
+            font-weight: 400;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 35px;
+            color:rgb(2, 80, 159);
+            margin: 18px;
+            max-height: 32px;
+
+        }
+        .mobile{
+            display: flex;
+            justify-content: space-evenly;
+            font-weight: bold;
+            margin: 40px;
+            color: rgb(129, 4, 4);
+            font-size: x-large;
+        }
+
+</style>
+<body>
+    <header class="back">
+        <img  src="logo.png" alt="City Logo" class="logo">      
+    
+        <p class="name" >Vanakam</p>
+        
+            <div class="menu">  
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="heritage.html">Heritage</a></li>
+                    <li><a href="hotel.html">Hotel Booking</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+        
+    </header>
+    <main>
+        <h2 class="herit"> Heritages</h2>
+
+        <section class="shots">
+            
+        
+            
+               <div class="shot">
+                <img src="he1.png" alt="shot 1">
+                <div class="shot-info">
+                    <div></div>
+                    <div></div>
+                </div>
+               </div>
+               <div class="shot">
+                <img src="he3.png" alt="shot 2">
+                <div class="shot-info">
+                    <div></div>
+                    <div></div>
+                </div>
+               </div>
+               <div class="shot">
+                <img src="he2.png" alt="shot3">
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
+               </div>
+               <div class="shot">
+                <img src="he4.png" alt="shot4">
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
+               </div>
+               <div class="shot">
+                <img src="he5.png" alt="shot5">
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
+               </div>
+               <div class="shot">
+                <img src="he6.png" alt="shot6">
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
+               </div>
+               <div class="shot">
+                <img src="he7.png" alt="shot7">
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
+               </div>
+               <div class="shot">
+                <img src="he8.png" alt="shot8">
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
+               </div>
+               <div class="shot">
+                <img src="he9.png" alt="shot9">
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
+               </div>
+               <div class="shot">
+                <img src="he10.png" alt="shot10">
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
+               </div>
+               
+              </section>
+                
+       
+    </main>
+    <div class="contact">
+        <p>Contact Us</p>
+        
+    </div>
+    <div class="mobile">
+        <p>Mobile number : 7904399208</p>
+        <p>Mail ID : tourismchennai@gmail.com</p>
+    </div>
+    <footer class="fot">
+        <p>&copy; 2024 Mohan raj 64. All rights reserved.</p>
+    </footer>
+</body>
+</html>
