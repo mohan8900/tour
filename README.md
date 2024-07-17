@@ -1,3 +1,4 @@
+# 2.
 # tourism
 ## first.html
 ```c
@@ -1305,6 +1306,89 @@
 ## Gallery Page:
 
 ![Screenshot 2024-07-17 082933](https://github.com/user-attachments/assets/42f562ff-8b94-4bef-bccf-b7fb1cf96fb2)
+
+
+# 1
+## My day 
+``` c
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Day</title>
+    </head>
+    <body>
+    <center>
+
+    <table cellpadding= "10" cellspacing="10" style="border-style: double;">
+        <tr>
+            <th colspan="2" class="center" style="border-style: double;"><mark>My Day</mark></th>
+        </tr>
+        <tr>
+            <td style="border-style: double;">
+                <ol>
+                    <li>wake up early
+                    <ul>
+                        <li style="list-style-type: square; margin-bottom: 20px">5AM</li>
+                        <li>walk</li>
+                        <li>jog</li>
+                    </ul>
+                    </li>
+                </ol>
+            </td>
+            <td rowspan="3" style="border-style: double;">
+    <table>
+        <tr>
+            <th colspan="2" class="center highlight" style="border-style: double;"><mark>Things to watch</mark></th>
+                </tr>
+        <tr >
+            <td styl
+            e="border-style: double;"><img src="f2.png" alt="image 1" width="100" height="100" >
+            <td style="border-style: double;"><img src="f1.png" alt="image 2" width="100" height="100">
+        </tr>
+        <tr>
+            <td style="border-style: double;"><img src="f3.png" alt="image 3" width="100" height="100">
+            <td style="border-style: double;"><img src="f4.png" alt="image 4" width="100" height="100">
+        </td>
+
+        </tr>
+        <tr>
+        </tr>
+    </table>
+            <tr>
+                <td style="border-style: double;">
+                    <ol start="2">
+                    <li>breakfast
+                        <ul>
+                        <li style="list-style-type: square; margin-bottom: 20px">8AM</li>
+                    <li>eggs</li>
+                    <li>coffee</li>
+                    </ul>
+                    </li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td style="border-style: double;">
+                    <ol start="3">
+                    <li>go to Saveetha
+                    <ul>
+                    <li style="list-style-type: square; margin-bottom: 20px">8AM</li>
+                    <li>attend classes</li>
+                    <li>to be continued</li>
+                    </ul>
+                    </li>
+                    </ol>
+                </td>
+            </tr>
+    </table>
+    </center>
+</body>
+</html>
+
+```
+# OUTPUT:
+![Screenshot 2024-07-17 085737](https://github.com/user-attachments/assets/0e54fefd-260d-4fbb-85b2-dd30bd7c8e8c)
+
 
 
 
